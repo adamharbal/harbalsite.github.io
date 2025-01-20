@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.banner {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.banner h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner .btn {
+  background-color: #fff;
+  color: #007BFF;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.banner .btn:hover {
+  background-color: #f0f0f0;
+}
+.products {
+  padding: 2rem;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #007BFF;
+  margin: 0.5rem 0;
+}
+
+.product-card .btn-add-to-cart {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-card .btn-add-to-cart:hover {
+  background-color: #0056b3;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
